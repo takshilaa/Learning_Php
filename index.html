@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to travel form</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img class="pg" src="pg.jpg" alt="car" >
+    <div class="container">
+        <h1>Welcome to Travel Form</h1>
+        <p>Enter your form and submit your details to confirm your participation
+            in the trip
+        </p>
+        <p class="submitmsg">Thanks for submitting your form</p>
+        <form action="index.php" method="post">
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="text" name="age" id="age" placeholder="Enter your age">
+            <input type="text" name="gender" id="gender" placeholder="Enter your gender">
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <input type="phone" name="phone" id="phone" placeholder="Enter your phone number ">
+            <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter any other infomation here">
+            </textarea>
+            <button class="btn">Submit</button>
+            <!-- <button class="btn">Reset</button> -->
+        </form>
+
+    </div>
+    <script src="index.js"></script>
+
+    
+</body>
+</html>
